@@ -30,3 +30,5 @@ Route::get('/sach','App\Http\Controllers\vidulayoutController@sach');\
 
 Route::get('/sach/theloai/{id}','App\Http\Controllers\vidulayoutController@theloai');
 Route::get('/sach/chitietsach/{id}','App\Http\Controllers\vidulayoutController@chitietsach');
+
+Route::get('/ngocquynh','App\Http\Controllers\ViDuController@ngocquynh');
