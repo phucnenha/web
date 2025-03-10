@@ -26,7 +26,10 @@ Route::get("/qlsach/themtheloai","App\Http\Controllers\BookController@themtheloa
 Route::get("/qlsach/luutheloai","App\Http\Controllers\BookController@luutheloai");
 
 Route::get('/trang1','App\Http\Controllers\vidulayoutController@trang1');
-Route::get('/sach','App\Http\Controllers\vidulayoutController@sach');\
+Route::get('/sach','App\Http\Controllers\vidulayoutController@sach');
 
 Route::get('/sach/theloai/{id}','App\Http\Controllers\vidulayoutController@theloai');
 Route::get('/sach/chitietsach/{id}','App\Http\Controllers\vidulayoutController@chitietsach');
+
+Route::get('/khanhnhi','App\Http\Controllers\ViDuController@khanhnhi');
+
