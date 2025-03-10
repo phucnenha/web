@@ -17,5 +17,7 @@ $so_b = $request->input("so_b");
 $ket_qua = $so_a+$so_b;
 return "Kết quả là: ".$ket_qua;
 }
-
+function thuthao(){
+    return view('thuthao');
+    }
 }
