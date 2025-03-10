@@ -21,4 +21,8 @@ function khanhnhi(){
     return view('khanhnhi');
 }
 
+function ngocquynh(){
+    return view('ngocquynh');
+    }
+
 }
